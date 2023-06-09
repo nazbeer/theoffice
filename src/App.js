@@ -16,7 +16,7 @@ const App = () => {
   const [modalVisible, setModalVisible] = useState(false);
   return (
     <>
-    <Router>
+ <Router basename={'/theoffice'}>
       {/* <div className='row'>
         <div className='container'>
         <Navbar/>
@@ -27,7 +27,7 @@ const App = () => {
           <div className='container '>
               <div className="d-flex justify-content-between align-items-center pl-4 pr-4 ">
                 
-                <Link to="/"><img src={logo} width={129} height={33} alt="The Office" className="img-responsive desktopicon"></img>
+                <Link to="${process.env.PUBLIC_URL}/"><img src={logo} width={129} height={33} alt="The Office" className="img-responsive desktopicon"></img>
                 <img src={logosmall} width={129} height={33} alt="The Office" className="img-responsive mobileicon"></img>
                 </Link>
                     
@@ -61,7 +61,7 @@ const App = () => {
         <main>
        
         <Routes>
-            <Route exact path="${process.env.PUBLIC_URL}/" element={<Home/>} />
+            <Route exact path={process.env.PUBLIC_URL} element={<Home/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/services" element={<Services/>} />
             <Route path="/contact" element={<Contact/>} />
