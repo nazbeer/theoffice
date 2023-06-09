@@ -27,7 +27,7 @@ const App = () => {
           <div className='container '>
               <div className="d-flex justify-content-between align-items-center pl-4 pr-4 ">
                 
-                <Link to="${process.env.PUBLIC_URL}/"><img src={logo} width={129} height={33} alt="The Office" className="img-responsive desktopicon"></img>
+                <Link to="/"><img src={logo} width={129} height={33} alt="The Office" className="img-responsive desktopicon"></img>
                 <img src={logosmall} width={129} height={33} alt="The Office" className="img-responsive mobileicon"></img>
                 </Link>
                     
