@@ -1,0 +1,93 @@
+.px-15{
+    padding-left:13rem !important;
+    padding-right:13rem !important;
+}
+.footer-container{
+    margin-left: 10% !important;
+}
+.fs-custom{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 20px;
+/* identical to box height, or 83% */
+display: grid;
+
+color: #000000;
+
+}
+.fs-text{
+    
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+
+color: #000000;
+
+}
+.font-weight-800{
+    font-weight: 800;
+}
+.customdisplay{
+    display:flex;
+}
+.custominline{
+    display: inline-flex;
+}
+.desktophider{
+    display:none;
+}
+@media screen and (max-width:767px) {
+    .customdisplay{
+        display: block;
+    }
+    .mobilehider{
+        display: none;
+    }
+    
+    .custominline{
+        display: block;
+    }
+    .px-15{
+        padding-left:13rem !important;
+        padding-right:13rem !important;
+    }
+    .footer-container{
+        margin-left: 10% !important;
+    }
+    .fs-custom{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+    display: grid;
+    
+    color: #000000;
+    
+    }
+    .fs-text{
+        
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    
+    color: #000000;
+    
+    }
+    .font-weight-800{
+        font-weight: 800;
+    }
+
+
+}

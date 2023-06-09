@@ -1,0 +1,148 @@
+.discover-heading{
+
+    position: absolute;
+    left: 362px;
+    right: 22.5%;
+    bottom: 60.63%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:52px;
+    line-height: 83px;
+    /* or 120% */
+    
+    
+    color: #000000;
+}
+.discover-content{
+position: absolute;
+width: 50%;
+height: 84px;
+left: 362px;
+bottom:25%;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 42px;
+/* or 140% */
+color: #000000;
+}
+
+
+.parallax-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+  
+    /* background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80); */
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    row-gap: 4rem;
+  
+
+  }
+.parallax-container-new  {
+position: absolute;
+width: auto;
+height: 386px;
+left: 0px;
+top: 844px;
+}
+.margin-top-150{
+    margin-top: 150px;
+}
+.leftimg{
+    height: 266px;
+    width: 259px;
+  
+    border-radius: 0px;
+    
+    margin-left: 40px !important;
+    margin-bottom: 130px;
+}
+.rightimg{
+    height: 228px;
+    width: 225px;
+    
+    border-radius: 0px;
+    
+}
+@media screen and (max-width: 767px) {
+    .discover-heading{
+        position: absolute;
+        left: 36%;
+        bottom: 70px;
+        width: 55%;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+    .discover-content{
+        position: absolute;
+        width: 60%;
+        height: 84px;
+        top: -34px;
+        left: 14px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+    }
+    
+    
+    .parallax-container {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+        /*  this is where the magic happens:  */
+        background-attachment: fixed;
+      
+        /* background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80); */
+        background-position: center;
+        background-size: cover;
+        color: var(--color);
+        row-gap: 4rem;
+      
+    
+      }
+    .parallax-container-new  {
+        position: absolute;
+        width: auto;
+        height: 0;
+        left: 0px;
+        top: 62%;
+    
+    }
+    .margin-top-150{
+        margin-top: 50px;
+        margin-right: -10px !important;
+    }
+    .leftimg{
+        height: 106px;
+        width: 106px;
+        border-radius: 0px;
+        margin-left: 0px !important;
+        margin-bottom: 300%;
+    }
+    .rightimg{
+          height: 111px;
+    width: 121px;
+    border-radius: 0px;
+        
+    }
+}

@@ -1,0 +1,61 @@
+.pl-4{
+    padding-left:165px !important;
+
+}
+.pr-4{
+    padding-right:165px !important;
+}
+@media screen and (min-width:390px)  and (max-width:450px) {
+    .pr-4{
+        padding-right:24px !important;
+    }
+    .pl-4{
+        padding-left:24px !important;
+    }
+    
+}
+body{
+    overflow-x: hidden !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+.no-underline{
+    text-decoration: none !important;
+}
+.nav-item>a{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color:#000;
+}
+.border-none{
+    border-radius:0px !important;
+}
+.gap-7{
+        gap: 3.5rem!important;
+
+}
+.clearfix{
+    padding:150px !important;
+}
+.mobileicon{
+    display: none;
+}
+.mega-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: #2b2b2b; /* Adjust the background color as needed */
+  }
+  @media (max-width: 767px) {
+    .desktopicon{
+        display: none !important;
+    } .mobileicon{
+        display: block !important;
+    }
+  }

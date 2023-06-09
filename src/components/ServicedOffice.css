@@ -1,0 +1,95 @@
+.text-description{
+    left: 370px !important;
+    top: 1398px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 57px;
+    color: #939393;
+    /* or 119% */
+    
+    
+    color: #939393;
+}
+.row-serviced{
+    position: absolute;
+    top: 1398px;
+    margin-left: -36px !important;
+}
+/* .leftimg{
+    left: calc(50% - 1089px/2 - 146.5px);
+top: 265px;
+} */
+.servicedofc-text{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    text-decoration: underline;
+    color:#000;
+}
+.s-leftcustomimg{
+    /* margin-left: -55px !important; */
+    margin-top: 109px !important;
+    width: 225px;
+height: 228px;
+bottom:10%;
+}
+.s-rightimg{
+    position: absolute;
+width: 225px;
+height: 228px;
+bottom:40%;
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .text-description{
+        left: 0px !important;
+        top: 1398px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        width: 114% !important;
+        line-height: 28px;
+        color: #939393;
+        color: #939393;
+        /* or 119% */
+        
+        
+        color: #939393;
+    }
+    .row-serviced{
+        position: absolute;
+        top: 80%;
+        margin-left: -185px !important;
+    }
+    /* .leftimg{
+        left: calc(50% - 1089px/2 - 146.5px);
+    top: 265px;
+    } */
+    .servicedofc-text{
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 800;
+        text-decoration: underline;
+        color:#000;
+    }
+    .s-leftcustomimg{
+        /* margin-left: -55px !important; */
+        margin-top: 193px !important;
+        width: 225px;
+    height: 228px;
+    bottom:10%;
+    }
+    .s-rightimg{
+        position: absolute;
+        width: 126px;
+        height: 126px;
+        bottom: 69%;
+        margin-left: -50px;
+        z-index: -1;
+    
+    
+    }
+}

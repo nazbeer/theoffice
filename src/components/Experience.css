@@ -1,0 +1,131 @@
+.fs-36s{
+    font-size:36px;
+}
+.ourexp{
+    margin-top: 100px !important;
+}
+.app-exp{
+    width: 80% !important;
+    margin: 0 auto;
+}
+.exp-w{
+    width:79%;
+}
+.gap-77{
+    gap:77px;
+}
+
+.exp-list-container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .exp-list {
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 8.5%;
+
+  }
+  
+  .exp-item {
+    padding-right: 63px;
+    padding-left: 64px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 1px solid #A9A9A9;
+    object-fit: cover;
+    height: 108px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* width: 90%;
+
+    height: 31px; */
+  }
+  
+  .exp-item:last-child {
+    border-right: 0px solid transparent !important;
+  }
+
+  .customdisplay{
+    display:flex ;
+  }
+  @media screen and (max-width:767px) {
+    .mobilehider{
+      display: none !important;
+    }
+    .width100{
+      width:100%;
+    }
+    .customdisplay{
+        display: block  !important;
+    }
+    .fs-36s{
+    font-size:24px;
+}
+.ourexp{
+    margin-top: 100px !important;
+}
+.app-exp{
+    width: 100% !important;
+    margin: 0 auto;
+}
+.exp-w{
+    width:79%;
+}
+.gap-77{
+    gap:77px;
+}
+
+.exp-list-container {
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 10px;
+  }
+  
+  .exp-list {
+    display: grid;
+    align-items: center;
+    padding: 0px;
+    
+    text-align: center;
+    margin-left: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+  }
+  .gridone{
+    border-right: 1px solid #A9A9A9;
+    border-bottom: 1px solid #A9A9A9;
+  }
+  .gridtwo{
+    
+    border-bottom: 1px solid #A9A9A9;
+  }
+  .gridthree{
+    
+    border-right: 1px solid #A9A9A9;
+  }
+  
+  .exp-item {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-right:0px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+    align-items: center;
+    /* width: 90%;
+
+    height: 31px; */
+  }
+  
+  .exp-item:last-child {
+    border-right: 0px solid transparent !important;
+    border-bottom: 0px solid transparent !important;
+  }
+  }

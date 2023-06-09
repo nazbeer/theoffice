@@ -1,0 +1,128 @@
+.ourclients{
+    margin-top: 100px !important;
+}
+.client-image-list {
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .client-image {
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+  }
+  .pl-41{
+    padding-left: 19%;
+}
+.fs-64{
+    font-size: 64px !important;
+    width: 100% !important;
+
+}
+.app-clients{
+    width: 80% !important;
+    margin: 0 auto;
+}
+.client-list-container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .client-list {
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+    animation: scrollBackground 30s linear infinite;
+  }
+  
+  .client-item {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-right: 1px solid #A9A9A9;
+    object-fit: cover;
+    height: 80px;
+    /* width: 90%; */
+    display: flex;
+    align-items: center;
+    /* width: 90%;
+
+    height: 31px; */
+  }
+  
+  .client-item:last-child {
+    border-right: none;
+  }
+  .customdisplay{
+    display:flex ;
+  }
+  @media screen and (max-width:767px) {
+    .customdisplay{
+      display:block ;
+    }
+    .ourclients{
+      margin-top: 100px !important;
+  }
+  .client-image-list {
+      display: flex;
+      overflow-x: auto;
+      justify-content: center;
+      margin: 20px auto;
+      width: 80%;
+    }
+    
+    .client-image {
+      width: 200px;
+      height: auto;
+      margin: 0 10px;
+    }
+    .pl-41{
+      padding-left: 0;
+      font-size:20px;
+  }
+  .fs-64{
+      font-size: 38px !important;
+      width: 100% !important;
+  
+  }
+  .app-clients{
+      width: 100% !important;
+      margin: 0 auto;
+  }
+  .client-list-container {
+      width: 100%;
+      overflow-x: hidden;
+    }
+    
+    .client-list {
+      display: inline-flex;
+      align-items: center;
+      padding: 20px;
+      animation: scrollBackground 30s linear infinite;
+    }
+    
+    .client-item {
+      padding-right: 50px;
+      padding-left: 50px;
+      padding-top:20px;
+      padding-bottom:20px;
+      border-right: 1px solid #A9A9A9;
+      object-fit: cover;
+      height: 80px;
+      /* width: 90%; */
+      display: flex;
+      align-items: center;
+      /* width: 90%;
+  
+      height: 31px; */
+    }
+    
+    .client-item:last-child {
+      border-right: none;
+    }
+
+  }

@@ -1,0 +1,246 @@
+.flexible-heading{
+    
+position: absolute;
+width: 970px;
+height: 152px;
+left: 148px;
+top: 265px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 250px;
+line-height: 77px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+  color: #000000;
+  user-select:contain;
+mix-blend-mode: multiply;
+/* or 31% */
+/* background: url('./images/flexible.svg') no-repeat; */
+
+
+color: #000000;
+}
+/* .videocontainer>video{
+  width: 100%;
+  height: 100%;
+} */
+.text-box{
+  position: absolute;
+  width: 814px;
+  height: 152px;
+  left: 163px;
+  top: 527px;
+  
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 77px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+    color: #000000;
+    user-select:contain;
+  mix-blend-mode: multiply;
+}
+.videocontainer>.flexible-content{
+
+    position: absolute;
+    width: 814px;
+    height: 152px;
+    left: 163px;
+    top: 477px;
+    
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 77px;
+    /* or 124% */
+  
+}
+.p-l-0{
+  padding-left: 0px !important;
+}
+
+.image-with-text {
+    overflow: hidden;
+  }
+
+  .image-with-text img {
+    float: left;
+    margin-right: 10px;
+  }
+/*   
+.svg-mask {
+      display: block;
+      -webkit-clip-path: url(#text-path);
+      clip-path: url(#text-path);
+      margin-left: 21px;
+      overflow: hidden;
+      position: relative
+  }
+.svg-mask svg {
+      height: auto;
+      width: 100%;
+      margin-left:10px; 
+  }
+  
+.svg-mask video {
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%
+  }
+  .mask {
+    -webkit-clip-path: url(#svgPath);
+    clip-path: url(#svgPath);
+  }
+   */
+   .mask {
+    -webkit-clip-path: url(#svgPath);
+    clip-path: url(#svgPath);
+  }
+   video { 
+    width: 66%;
+    margin-left: 9.5%;
+    margin-top: 12%;
+
+}
+   svg { 
+    width: 100%;
+    position:absolute;
+    
+    height: 100%;
+  }
+  svg text {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+ 
+    font-size: 38px;
+  }
+  svg rect {
+    fill: black;
+  }
+  svg > rect {
+      -webkit-mask: url(#mask);
+      mask: url(#mask);
+  }
+
+  @media (max-width: 767px) {
+    .flexible-heading{
+    
+      position: absolute;
+      width: 970px;
+      height: 152px;
+      left: 148px;
+      top: 265px;
+      
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 250px;
+      line-height: 77px;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+        color: #000000;
+        user-select:contain;
+      mix-blend-mode: multiply;
+      /* or 31% */
+      /* background: url('./images/flexible.svg') no-repeat; */
+      
+      
+      color: #000000;
+      }
+      /* .videocontainer>video{
+        width: 100%;
+        height: 100%;
+      } */
+      .text-box{
+        position: absolute;
+        width: 814px;
+        height: 152px;
+        left: 163px;
+        top: 527px;
+        
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 77px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+          color: #000000;
+          user-select:contain;
+        mix-blend-mode: multiply;
+      }
+      .videocontainer>.flexible-content{
+      
+        position: absolute;
+        width: auto;
+        left: 10%;
+        top: 23%;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+          /* or 124% */
+        
+      }
+      .p-l-0{
+        padding-left: 0px !important;
+      }
+      
+      .image-with-text {
+          overflow: hidden;
+        }
+      
+        .image-with-text img {
+          float: left;
+          margin-right: 10px;
+        }
+    .mask {
+      -webkit-clip-path: url(#svgPath);
+      clip-path: url(#svgPath);
+    }
+     video { 
+      width: 91%;
+      margin-left: 7.5%;
+      margin-top: 24%;
+  
+  }
+     svg { 
+      width: 100%;
+      position:absolute;
+      
+      height: 100%;
+    }
+    svg text {
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 700;
+   
+      font-size: 38px;
+    }
+    svg rect {
+      fill: black;
+    }
+    svg > rect {
+        -webkit-mask: url(#mask);
+        mask: url(#mask);
+    }
+  }

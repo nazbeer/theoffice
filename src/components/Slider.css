@@ -1,0 +1,16 @@
+.bg-contain{
+    background-size: contain;
+}
+.bg-cover{
+    background-size: cover;
+}
+.bg-flexible{
+    background-image: url('./images/flexible.svg');
+}
+.custom-heading{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 250px;
+    line-height: 77px;
+}

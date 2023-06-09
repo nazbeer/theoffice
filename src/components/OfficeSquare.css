@@ -1,0 +1,138 @@
+.row-container {
+    background-image: url('./images/officesquare.svg') ;
+    background-size: cover;
+    animation: scrollBackground 10s linear infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px; /* Adjust the height as needed */
+   
+    display: flex;
+    align-items: center;
+  }
+  
+  .row-content {
+    width: 100%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .scrolling-row {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+  }
+  .scrolling-bg {
+    position: absolute;
+
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-image: url('./images/officesquare.svg') ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: scrollBackground 20s linear infinite;
+  }
+  
+.scrolling-content {
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+ 
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  @keyframes scrollBackground {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  
+  @media screen and (max-width:767px) {
+    .row-container {
+      background-image: url('./images/officesquare.svg') ;
+      background-size: cover;
+      animation: scrollBackground 10s linear infinite;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 300px; /* Adjust the height as needed */
+     
+      display: flex;
+      align-items: center;
+    }
+    
+    .row-content {
+      width: 100%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    
+    .scrolling-row {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+    }
+    .scrolling-bg {
+      position: absolute;
+  
+      left: 0;
+      width: 200%;
+      height: 100%;
+      background-image: url('./images/officesquare.svg') ;
+      background-size: contain;
+      background-repeat: no-repeat;
+      animation: scrollBackground 20s linear infinite;
+    }
+    
+  .scrolling-content {
+      position: absolute;
+  
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 70%;
+   
+      color: #fff;
+      font-size: 24px;
+    }
+    
+    @keyframes scrollBackground {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  }
