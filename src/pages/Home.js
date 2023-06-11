@@ -49,25 +49,54 @@ const Home = () => {
   ];
   
   return (
-    <div className="container-fluid" > 
+    
+      <div className="container-fluid  content-space-t-3 content-space-lg-0 min-vh-lg-100">
+        
+        <div className="w-100">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="mb-5">
+               <Flexible/>
+              </div>
 
-    {/* <Slider /> */}
-    <div className='row'>
+         
+            </div>
+            
+          </div>
+       
+        </div>
+        <div className="w-100">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="mb-5">
+              <Discover/>
+              </div>
+
+         
+            </div>
+            
+          </div>
+       
+        </div>
+       
+                    
+    
    
-      <Flexible/>
+{/*    
 
-    </div>
-    <div className='row'>
+
+  
+
 
     <Discover/>
 
-    </div>
+
     <div className='container'>
 
       <ServicedOffice/>
 
     </div>
-    
+     */}
     <div className='row'>
    
       <Solutions/>
@@ -147,7 +176,7 @@ const Home = () => {
       <Footer/>
      </div>
     </div>
-    
+   
   );
 }
 
