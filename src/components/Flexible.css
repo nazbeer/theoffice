@@ -1,10 +1,28 @@
+.flexible-clipped{
+  width: var(--image-size);
+  height: calc(var(--image-size) / 2);
+
+  font-size: 12.5em;
+  font-weight: bold;
+  text-align: center;
+  line-height: calc(var(--image-size) / 2);
+
+  background-image: url(https://ucarecdn.com/6476570f-a7e8-4346-9dde-e42ad30111d3/-/preview/1200x800/);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 .flexible-heading{
     
 position: absolute;
-width: 970px;
+width:auto;
 height: 152px;
-left: 148px;
-top: 265px;
+
+
 
 font-family: 'Plus Jakarta Sans';
 font-style: normal;
@@ -53,9 +71,9 @@ color: #000000;
 .videocontainer>.flexible-content{
 
     position: absolute;
-    width: 814px;
+    width: auto;
     height: 152px;
-    left: 163px;
+  
     top: 477px;
     
     font-family: 'Plus Jakarta Sans';
@@ -110,9 +128,8 @@ color: #000000;
     clip-path: url(#svgPath);
   }
    video { 
-    width: 66%;
-    margin-left: 9.5%;
-    margin-top: 12%;
+    width: auto;
+
 
 }
    svg { 
@@ -139,9 +156,9 @@ color: #000000;
     .flexible-heading{
     
       position: absolute;
-      width: 970px;
+      width: auto;
       height: 152px;
-      left: 148px;
+      
       top: 265px;
       
       font-family: 'Plus Jakarta Sans';
